@@ -13,7 +13,6 @@
     "@testing-library/user-event": "^7.1.2",
     "animate.css": "^3.7.2",
     "firebase": "^7.14.4",
-    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.12.0",
@@ -42,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "firebase-tools": "^7.13.1"
+    "firebase-tools": "^7.13.1",
+    "sass": "^1.51.0"
   }
 }

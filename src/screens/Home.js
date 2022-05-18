@@ -57,7 +57,6 @@ function Home() {
           </ScrollAnimation>
         </div>
         <img className={'portrait'} src={me} alt={''}/>
-        <h2 style={{ fontWeight: 200, marginBottom: '5em' }}>Hello there, I'm Cameron</h2>
         <div className={'bodyContent'}
              style={window.mobileCheck() ?
                { backgroundImage: `url(${gliding})`, padding: '2em 1em', margin: '2em 1em' } :
@@ -67,7 +66,7 @@ function Home() {
               { margin: '8em 0', fontSize: 'calc(10px + 1vmin)' } :
               { margin: '8em 5%' }}>
               I'm a Mechatronics Engineering student at the
-              University of Waterloo with a passion for Software Development.
+              University of Waterloo with a passion for software development.
               I'm also a pilot! Aircraft I've flown include: <br/>
               Schweizer SGS 2-33As, Cessna 152s, and Cessna 172s.
             </div>
@@ -76,13 +75,11 @@ function Home() {
             <div className={'bodyBlock'} style={window.mobileCheck() ?
               { margin: '8em 0', fontSize: 'calc(10px + 1vmin)' } :
               { margin: '8em 5%' }}>
-              My favorite hobby is programming!
-              I like to learn by working on projects in my free time.
-              Through my personal projects, I've gained experience in a
-              variety of languages including:<br/>
-              <b>Python, C++, Java, JavaScript (ES6), HTML5, and CSS</b><br/>
-              along with several framework, including:<br/>
-              <b>PyTorch, OpenCV, React, React Native, and Selenium</b>
+              I like to code in my free time to learn new languages and technologies.
+              Most of my work has been done with:<br/>
+              <b>Python, Go, JavaScript, TypeScript, Node.js, C, and C++</b><br/>
+              along with several frameworks, including:<br/>
+              <b>PyTorch, OpenCV, React, and React Native</b>
             </div>
           </ScrollAnimation>
         </div>

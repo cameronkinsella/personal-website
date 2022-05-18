@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { faJs, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import {faDocker, faJs, faNodeJs, faReact} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -28,7 +28,10 @@ export function ProjectBlock(props) {
     'React-Native': faReact,
     'PyTorch': require('../assets/icons/pytorch.svg'),
     'OpenCV': require('../assets/icons/opencv.svg'),
-    'Google Cloud Platform': require('../assets/icons/gcp.svg')
+    'Google Cloud Platform': require('../assets/icons/gcp.svg'),
+    'Go': require('../assets/icons/go.svg'),
+    'TypeScript': require('../assets/icons/typescript.svg'),
+    'Docker': faDocker
   };
 
   return (
